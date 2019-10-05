@@ -1,6 +1,6 @@
 {
   "name": "@andrewsosa/pi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "pip install w/ requirements.txt",
   "bin": "pi.sh",
   "author": "andrewsosa",
