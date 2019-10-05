@@ -3,5 +3,5 @@ REQFILE=requirements.txt
 QUERY=$(echo $@ | sed 's/\ /\\\|/g')
 
 pip install $@
-pip freeze | grep $QUERY >> $REQFILE
+pip freeze | grep -i $QUERY >> $REQFILE
 sort -o $REQFILE $REQFILE
