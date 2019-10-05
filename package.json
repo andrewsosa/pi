@@ -4,5 +4,9 @@
   "description": "pip install w/ requirements.txt",
   "bin": "pi.sh",
   "author": "andrewsosa",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewsosa/pi.git"
+  }
 }
